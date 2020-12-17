@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+
+<head>
+    <meta charset = 'UTF-8' />
+    <title>Haikyuu!!Impact</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Paytone+One&display=swap" rel="stylesheet" />
+    <link href = 'style.css' rel = 'stylesheet' />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/annotations.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="https://code.highcharts.com/modules/timeline.js"></script>
+    <script src = 'viz.js'></script>
+</head>
+
+<body>
+    <h1>INFLUENCE OF</h1>
+    <img id = 'logo' src = 'logoEN.png' alt = 'Haikyuu logo'/>
+    <h1>ON JAPANESE VOLLEYBALL</h1>
+    <h3>By Kaitlynn Gabriel</h3>
+    <div class = 'manga'>
+        <img class = 'panel' src = 'jump.jpg' alt = 'high jump'>
+        <img class = 'panel' src = 'block.jpg' alt = 'blocking'>
+        <img class = 'panel' src = 'foot.jpg' alt = 'save with foot'>
+        <img class = 'panel' src = 'bokuto.png' alt = 'bokuto'> 
+    </div>
+    <hr/>
+
+    <h2>TOP 5 MOST POPULAR CHARACTERS & THEIR ATHLETIC ABILITY</h2>
+    <p>
+        Each character received a score from 0-5 judged in power, jumping, stamina, game sense, technique, and speed. 
+        The top 5 characters all excel in at least one particular category.
+    </p>
+    <div class = 'grid-container'>
+        <img class = 'grid-item' src = 'kags.jpg' alt = 'tobio kageyama'>
+        <img class = 'grid-item' src = 'hina.png' alt = 'shouyou hinata'>
+        <img class = 'grid-item' src = 'nishinoya.jpg' alt = 'yuu nishinoya'>
+        <img class = 'grid-item' src = 'suga.jpg' alt = 'koushi sugawara'>
+        <img class = 'grid-item' src = 'oikawa.jpg' alt = 'touru oikawa'>
+    </div>
+
+    <div class = 'grid-container'>
+        <div class = 'grid-item' id = 'kageyama'></div>
+        <div class = 'grid-item' id = 'hinata'></div>
+        <div class = 'grid-item' id = 'nishinoya'></div>
+        <div class = 'grid-item' id = 'sugawara'></div>
+        <div class = 'grid-item' id = 'oikawa'></div>
+    </div>
+    <p style = 'text-align: right;'>Source: Haikyuu!! Wiki</p>
+    <hr/>
+
+    <h2>MOST POPULAR VOLLEYBALL POSITIONS</h2>
+    <p style = 'text-align: center;'>Based on the 50 most popular characters' positions, setter is the most favored position among fans.</p>
+    <div class = 'pos'>
+        <img src = 'court.png' alt = 'volleyball positions' width = '600px'>
+        <div class = 'v-pos' id = 'positions'></div>
+    </div>
+    <p style = 'text-align: right;'>Source: Haikyuu!! Wiki</p>
+    <hr/>
+
+    <h2>TIMELINE OF HAIKYUU!!</h2>
+    <div id = 'timeline-h'></div>
+    <p style = 'text-align: right;'>Source: Haikyuu!! Wiki</p>
+    <hr/>
+
+    <h2>GROWING FAN BASE</h2>
+    <p style = 'text-align: center;'>From 2013 to 2014, we see a large increase in the number of copies sold. Now, the numbers are starting to
+     level off, but still showing a steady stream of new readers. </p>
+    <div id = 'sales'></div>
+    <p style = 'text-align: right;'>Source: Haikyuu!! Wiki</p>
+    <hr/>
+
+    <h2>REVIVAL OF VOLLEYBALL IN JAPAN AFTER THE SERIALIZATION OF HAIKYUU!! IN 2012</h2>
+    <p style = 'text-align: left;'>
+        Among men and women, there is a decline in the number of people playing volleyball from 1996 to 2011. However in 2016,
+         there is a drastic spike from 2011 in the number of people playing volleyball. We expect to see the number of people 
+         playing volleyball to continue to rise from 2016 to 2021.
+    </p>
+    <div id = 'participation-m'></div>
+    <div id = 'participation-f'></div>
+    <p style = 'text-align: right;'>Source: The data is from surveys conducted every 5 years by the Statistics Bureau of Japan.</p>
+    <hr/>
+
+    <h2>SOARING PASSION FOR VOLLEYBALL</h2>
+    <p style = 'text-align: left;'>
+        In the first 4 years after the release of Haikyuu, there is a 237% increase in the number of 
+        people playing the sport. Obviously, volleyball is becoming more mainstream among the Japanese.
+    </p>
+    <div id = 'bar-container'></div>
+    <p style = 'text-align: right;'>Source: The data is from surveys conducted every 5 years by the Statistics Bureau of Japan.</p>
+    <hr/>
+
+    <footer>
+        <p>Works Cited</p>
+        <p>Anna The 666. “xAnimex.” <i>Pinterest</i>, pinterest.com/pin/791859546968822595/.</p>
+        <p>Arbelle. “Sugawara Haikyuu.” <i>Pinterest</i>, pinterest.com/pin/607986018435681186/.</p>
+        <p>Daniele, Alycia. “Nishinoya Yuu [Haikyuu!!].” <i>Pinterest</i>, pinterest.com/pin/794955771701159015/.</p>
+        <p>Furudate, Haruichi. “Haikyu!!” <i>VIZ Media</i>, 2012, viz.com/haikyu.</p>
+        <p>ManikWorld. <i>Haikyū!! Wiki</i>, 25 Apr. 2012, haikyuu.fandom.com/wiki/.</p>
+        <p>Orsi. “Iwa-Chan, Are You My Mom?.” <i>Pinterest</i>, pinterest.com/pin/419468152777390216/.</p>
+        <p>Sarah. “Haikyuu!!:Kageyama Tobio.” <i>Pinterest</i>, pinterest.com/pin/544513411188548715/.</p>
+        <p>Statistics Bureau, Ministry of Internal Affairs and Communications. “Survey on Time Use and Leisure Activities.” <i>Statistics Bureau of Japan</i>, 1996, stat.go.jp/english/data/shakai/index.html.</p>
+        <p>“What Are the Volleyball Positions and Roles?” <i>Volleyball Answers</i>, 21 Feb. 2020, volleyballanswers.com/what-are-the-volleyball-positions-and-roles/.</p>
+    </footer>
+</body>
+</html>
